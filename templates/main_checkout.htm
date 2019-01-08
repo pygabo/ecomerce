@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop landscape no-js" style="overflow: auto;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>[[meta_tag_title]]</title>
+		<meta name="description" content="[[meta_tag_description]]" />
+		<meta name="keywords" content="[[meta_tag_keywords]]" />
+		<meta name="generator" content="TotalCode - www.totalcode.com.co" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<!--[if IE]>
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<![endif]-->
+		<style>
+		html,
+		body {overflow-x: hidden;}
+		.row {overflow: hidden;}
+
+		body {
+	    background: #F5F5F5;
+	    color: #888888;
+	    margin: 0px;
+	    padding: 0px;
+	    font-family: 'Helevetica Neue', Helvetica ,Arial, Geneva, sans-serif !important;
+	    font: 10px 'Helevetica Neue', Helvetica, Arial ,Geneva, sans-serif;
+		}
+		header{
+			clear: both;
+			width: 100%;
+			border-top: 5px solid #007bff;
+			padding: 0px;
+			margin: 0px;
+		}
+		.container{margin-right:auto;margin-left:auto; width:1366px; /*border:1px solid red;*/ }
+		.container-fluid1 {height:81px;}
+		.containerInt {margin-left:41px; margin-right:41px;}
+		
+		.container-fluid{margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px}
+		.row{}
+		.row:after{content:'';display:table;clear:both}
+		.col-bars {display:none;}
+		.col-m-search  {
+				display:none;
+		}
+		.col-logo {
+				float:left;
+				width:10%;
+		}
+		.col-logo img {display:inline-block;}
+		.col-navigation {
+				float:left;
+				width:49%;
+			}
+		.col-search {
+				width:280px;
+				float:left;
+				display:inline-block;
+			}
+		.col-pedidos, .col-m-account, .col-sh-cart {
+			width:6%;
+			float:left;
+			text-align:center;
+			display:inline-block;
+		}
+		.col-sh-cart {
+			
+			margin-top:14px; 
+			text-align:left;
+			}
+		 .col-m-account {
+			 
+			margin-top:14px; 
+			text-align:center;
+		 }
+		 .col-pedidos {
+			 
+			margin-top:14px; 
+			text-align:center; 
+		 }
+		.row {background:#f5f5f5;}
+		.col-search #k {
+			width:227px; 
+			height:30px;
+		} 
+		#search_desktop {
+			width:43px; 
+			height:30px; 
+			color:#007bff; 
+			background:#dee0df; 
+			font-size:20px; 
+			text-align:center; 
+			padding-top:8px; 
+			float:left;
+		}
+		.col-m-account div, .col-pedidos div, .col-sh-cart div {
+			font-size:1.2em;
+			color:#8d8d8d;
+			text-align:center;
+			font-stretch:ultra-condensed;
+		}
+		.col-mobile-account, .col-mobile-sh-cart {
+			display:none;
+		}
+		.icono-estra{
+		float:left; width:45%;	
+		} 
+		.instr-cont{
+			border:1px solid transparent; width:50%; float:right;
+		}
+		.instr-cont-2{
+			margin-top:18px; font-size:1.2em; font-weight:100; text-align:right
+		}
+		.instr-compra{
+			float:right; padding-left:7px; padding-top:2px;
+		}
+		.instr-lock{
+			float:right; padding-top:0px; margin-left: 6px;
+		}
+		.instr-phone{
+			float:right; padding-left:7px; padding-top:2px;
+		}
+		.instr-phone-icon{
+			float:right; padding-top:0px;
+		}
+		@media only screen and (max-width: 1366px){
+			.container{width:1170px; }
+			.row {  }
+			.m-display{display:none;}
+			.col-bars {display:none;}
+			.col-m-search  {
+				display:inline-block;
+				float:left; width:4%;
+			}
+			.col-logo {
+				float:left;
+				width:12%;
+			}
+			.col-navigation {
+				float:left;
+				width:58%;
+			}
+			.col-search {
+				width:160px;
+				float:left;
+				display:none;
+			}	
+			.col-search #k {
+				width:100px; 
+				height:30px;
+			} 
+			.col-search-2 {
+				width:6%;
+				float:left;
+				text-align:center;
+				display:inline-block;
+			}
+			#search_desktop2 {
+				font-size:22px;
+			}
+			.col-pedidos, .col-m-account, .col-sh-cart {
+				width:8%;
+				float:left;
+				text-align:center;
+				display:inline-block;
+			}
+		}
+		.sidenav {
+			display:none !important;
+		}
+		@media only screen and (max-width: 1170px){
+			.container{width:970px; /*border:1px solid yellow;*/}
+			.m-display{display:none;}
+			.row {/*background:aqua*/}
+			.col-bars {display:inline-block;float:left; width:10%}
+			.col-m-search  {
+				display:inline-block;
+				float:left; width:10%;
+			}
+			.col-logo {
+				float:left;
+				width:30%;
+			}
+			.col-navigation {
+				display:none;
+			}
+			.vertical_menu {display:none !important;}
+			.col-search {
+				display:none;
+			}	
+			.col-pedidos, .col-m-account  {
+				width:20%;
+				float:left;
+				text-align:center;
+				display:inline-block;
+			}
+			.col-sh-cart {
+				width:10%;
+				float:left;
+				text-align:center;
+				display:inline-block;
+
+			}
+
+		}
+		@media only screen and (max-width: 971px){
+			.row {/*background:yellow*/}
+			.container{width:770px; /*border:1px dotted black;*/}
+			.m-display{display:none;}
+			.col-xs-7 {width:20%}
+			
+			.col-bars {
+				width:10%;
+				float:left;
+				text-align:left;
+				display:inline-block;
+				}
+			.col-m-search  {
+				display:inline-block;
+				float:left; width:10%;
+			}
+
+			.col-m-account,  .col-pedidos  {
+				width:20%;
+				float:left;
+				text-align:center;
+				display:inline-block;
+			}
+			.col-sh-cart {
+				width:10%;
+			}
+			
+			.col-logo {
+				width:30%;
+				float:left;
+			}
+			.col-search {
+				display:none;			}	
+		}
+		@media only screen and (max-width: 770px){
+			.container{width:99%;}
+			.containerInt {margin-left:12px; margin-right:12px; }
+			.row {/*background:pink*/}
+			.m-display{display:block;}
+			.im_mobile {max-width:100%;}
+			.col-bars, .col-m-search, .col-mobile-account, .col-mobile-sh-cart  {
+				margin-top:18px;
+				width:15%;
+				float:left;
+				display:inline-block;
+				text-align:center;
+			}
+			.col-mobile-sh-cart {
+				text-align:right;
+			}
+			.col-mobile-sh-cart #cart_items {
+				float:right;
+				margin:0;
+				padding:0;
+				right:24px;
+			}
+			.col-m-account, .col-sh-cart {
+				display:none;
+			}
+			.col-logo {
+				width:40%;
+				float:left;
+				max-width:40%;
+				max-height:70px;
+			}	
+			.col-pedidos, .col-search {display:none;}
+		.icono-estra{
+			float:left; width:45%;	
+		} 
+		.instr-cont{
+			border:1px solid transparent; width:50%; float:right;
+		}
+		.instr-cont-2{
+			margin-top:8px; font-size:1.1em; font-weight:100; text-align:right;
+		}
+		.instr-compra{
+			float:right; padding-left:2px; padding-top:0px;
+		}
+		.instr-lock{
+			display:none
+		}
+		.instr-phone{
+			float:right; padding-left:0px; padding-top:0px;
+		}
+		.instr-phone-icon{
+			display:none
+		}
+					
+		}
+		@media only screen and (max-width: 334px){
+			
+		}
+		/* Menu Vertical */
+
+.vertical_menu {
+	display: inline-block;
+}
+.vertical_menu > ul {
+    list-style: none;
+    margin-bottom: 10px;
+    float: left; /* Clear floats */
+    /*width: 100%;*/
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 500;
+    margin-top:32px;
+    font-family:Helvetica !important;
+}
+.vertical_menu > ul li {
+    position: relative;
+    float:left;
+    padding-left:8px;
+    padding-right:8px;
+    border-right:1px solid #dcdcdc;
+    
+}
+.vertical_menu > ul li:last-child {
+	border-right:none !important;
+}
+
+/*.vertical_menu > ul li.has-children > a::after {
+    content: ">";
+    font-family: "Helvetica";
+    float: right;
+}*/
+.vertical_menu > ul a {
+    display: block;
+    color: #666;
+    font-size:1.2em;
+    text-decoration: none;
+}
+.vertical_menu > ul a:hover {
+    color: #000;
+    /*background-color: #fff;*/
+}
+
+.vertical_menu > ul ul {
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, .1);
+    background-color: transparent; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background-image:url("/css/estra/images/menu-top.png");
+    background-repeat:no-repeat;
+    background-position:left top;
+    list-style: none;
+    position: absolute;
+    left: -9999px; /* Hide off-screen when not needed (this is more accessible than display: none;) */
+    width:200px;
+    padding-top:20px;
+    margin-left:0px;
+    padding-left: 0px;
+}
+.vertical_menu > ul ul li:first-child {
+	margin-top:10px;
+}
+.vertical_menu > ul ul li {
+    float: none;
+    background:#fff;
+    text-align:left;
+    /*display:block;*/
+    padding:0;
+    /*clear:both;*/
+    padding-bottom:20px;
+    padding-left:5px !important;
+    border-right:none !important;
+}
+.vertical_menu > ul ul a {
+    white-space: nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+.vertical_menu > ul li:hover ul { /* Display the dropdown on hover */
+    left: 0px; /* Bring back on-screen when needed */
+    top: 10px;
+}
+.vertical_menu > ul li:hover a { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+    /*background-color: #fff;*/
+    text-decoration: none;
+}
+.vertical_menu > ul li:hover ul a { /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    background-color: #fff;
+    text-decoration: none;
+}
+.vertical_menu > ul li:hover ul li a:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background-color: #fff;
+}
+.vertical_menu > ul ul ul {
+	background-color: #fff !important;
+	position:relative !important;
+	display:inline-block;
+	top:10px !important;
+	padding-top:10px;
+	width:99% !important;
+	box-shadow:none;
+}
+
+vertical_menu > ul ul ul li {
+	padding:0px !important;
+}
+
+.vertical_menu > ul ul ul li:first-child {
+	margin-top:0px !important;
+}
+
+.vertical_menu > ul li ul li:hover ul { /* Display the dropdown on hover */
+   display:block;
+}
+
+
+.vertical_menu #cajas_industriales_13 {
+	background-image:url('css/estra/images/cajas_industriales.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#f77b00;
+	font-size:14px;
+}
+
+.vertical_menu #agroindustrial_16 {
+	background-image:url('css/estra/images/agroindustrial.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#f77b00;
+	font-size:14px;
+}
+
+.vertical_menu #niñas_43 {
+	background-image:url('css/estra/images/ninas.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#491fb2;
+	font-size:14px;
+}
+
+.vertical_menu #niños_47 {
+	background-image:url('css/estra/images/ninos.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#491fb2;
+	font-size:14px;
+}
+
+.vertical_menu #bañeras_51 {
+	background-image:url('css/estra/images/banera.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#491fb2;
+	font-size:14px;
+}
+
+.vertical_menu #recipientes_21 {
+	background-image:url('css/estra/images/recipientes.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#f8a800;
+	font-size:14px;
+}
+.vertical_menu #preparar_24 {
+	background-image:url('css/estra/images/preparar.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#f8a800;
+	font-size:14px;
+}
+
+.vertical_menu #cajas_31 {
+	background-image:url('css/estra/images/cajas.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#7c7b7b;
+	font-size:14px;
+}
+.vertical_menu #organizadores_34 {
+	background-image:url('css/estra/images/organizadores.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#7c7b7b;
+	font-size:14px;
+}
+.vertical_menu #canecas_2 {
+	background-image:url('css/estra/images/canecas.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#b3d100;
+	font-size:14px;
+}
+.vertical_menu #aseo_y_limpieza_7 {
+	background-image:url('css/estra/images/aseo_limpieza.png');
+	background-size:15px 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	padding-top:2px;
+	color:#b3d100;
+	font-size:14px;
+}
+
+/* Fin Menu Vertical */
+.col-footer-4 {
+	width:25%; float:left; text-align:left;
+}		
+		</style>
+
+		[[google_analytics_code]]
+		[[head]]
+	</head>
+	<body >
+		<header>
+			<div class="container">
+				<div class="containerInt">
+					<div class="container-fluid1">
+						
+						<div class="row" >
+							<div  class="icono-estra"style="">
+								<a href="/"><img src="/css/disnery/images/logo2.png" class="im_mobile" style=" "></a>
+							</div>
+							<div class="instr-cont" style="">
+								<div class="instr-cont-2" style="">
+									<div class="instr-compra" style="">
+										Compra 100% Seguro
+									</div>
+									
+									<!--
+									<div class="instr-phone" style="">
+										Compras por teléfono 350&nbsp;00&nbsp;50 ext 357
+									</div>
+									<div class="instr-phone-icon" style="">
+										<img src="/css/estra/images/icon_phone.png">
+									</div>
+									-->
+									<div style="clear:both;"></div>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+						</div>
+						<div id="busqueda">
+							<div style="">
+								<form id="busqueda-mobile" action="/search/" method="get">
+								<div style="float:left">
+									<input type="text" name="k" id="kmobile" value="" placeholder="Buscar" autocomplete="off"  />
+								</div>
+								<div id="search_mobile"><i class="fas fa-search"></i></div>
+								</form>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="main_content">
+			[[page_content]]
+		</div>
+		<footer>
+			<div style="width:100%; background:#fff; margin-top:28px;">
+				<div class="container">
+					<div class="containerInt">
+						<div class="col-footer-2" >
+							<div id="footer-metodos-pago" class="metodos-pago">
+								<h3>MÉTODOS DE PAGO</h3>
+							</div>
+							<div class="metodos-pago">
+								<img src="/css/estra/images/visa.jpg">
+							</div>
+							<div class="metodos-pago">
+								<img src="/css/estra/images/mastercard.jpg">
+							</div>
+							<div class="metodos-pago">
+								<img src="/css/estra/images/american-express.jpg">
+							</div>
+							<div class="metodos-pago">
+								<img src="/css/estra/images/baloto.jpg">
+							</div>
+							<div class="metodos-pago">
+								<img src="/css/estra/images/efecty.jpg">
+							</div>
+							<div class="metodos-pago">
+								<img src="/css/estra/images/pse.jpg">
+							</div>
+
+							<div style="clear:both;"></div>
+						</div>
+						<div class="col-footer-2" >
+							<div id="footer-seguridad" class="seguridad">
+								<h3>SEGURIDAD</h3>
+							</div>
+							<div class="seguridad">
+								<img src="/css/estra/images/google-safe-browsing.jpg">
+							</div>
+							<div class="seguridad">
+								<img src="/css/estra/images/alphassl.jpg">
+							</div>
+							<div style="clear:both;"></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+			</div>
+			<div style="width:100%; background:transparent;">
+				<div class="container">
+					<div class="containerInt" style="padding-top:20px;">
+						<div class="footer-estra">
+							<a href="\"><img src="/css/disnery/images/logo2.png"></a>
+						</div>
+						<div class="footer-reserved">
+							&copy;<script></script>Disnery<br /><a href="mailto:info@disnery.co">info@disnery.co</a>
+						</div>
+						<div class="footer-powered">
+							
+							
+							<div style="clear:both;"></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="[[cdn_domain]]/javascript/slick/slick.min.js"></script>
+<link rel="stylesheet" href="/css/disnery/layout.css" >	
+<link rel="stylesheet" href="/css/disnery/totalcode.css" >
+<link rel="stylesheet" href="/css/disnery/totalcode_media.css" >	
+[[javascript]]
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "98%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+$(document).ready( function(){
+	$('#resumen-compra').css("display", "none");
+	$("#cart").hover(function(){
+		$("#resumen-compra").fadeIn(1400);
+	});
+	
+	$("#cart").mouseleave(function(){
+		$("#resumen-compra").fadeOut(1400);
+	});
+	
+	$("#action_mobile_search").bind("click", function(){
+		$("#busqueda").toggle();
+	})
+
+})
+</script>
+
+
+
+	</body>
+</html>

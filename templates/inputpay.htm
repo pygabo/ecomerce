@@ -1,0 +1,60 @@
+<div class="container">
+	<div class="containerInt">	
+	
+		<div id="maincontent" style="">
+			<div id="bggray">
+				<div>
+					<div class="clear" style="height:4px;"></div>
+					<div id="steps_checkout_info">
+						<div id="step_1" class="step_normal" style="">
+							<div id="num_normal" style="">1. </div>
+							<div><a href="inputship.phtml">Enviar a</a></div>
+						</div>
+						<div id="step_2" class="step_normal" style="">
+							<div id="num_normal" style="">2. </div>
+							<div><a href="inputcustomer.phtml">Tu Información</a></div>
+						</div>
+						
+						<!--- <div id="step_3" class="step_normal" style="">
+							<div id="num_normal" style="">3</div>
+							<div><a href="inputdate.phtml">Mensaje</a></div>
+						</div> -->
+						<div id="step_3" class="step_resaltado" style="">
+							<div id="num_resaltado" style="">3. </div>
+							<div>Revisar & Pagar</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					[[tpl_logout]]
+					<div id="hs-detalle-pago">
+		
+						<div style="color:var(--rojo); font-size: 1.4em; letter-spacing:0.04em; padding: 8px 4px; border-bottom: 1px solid #ddd; font-weight:500; text-transform:uppercase;">
+							RESUMEN
+						</div>
+						<div id="hs-shipto">
+							[[tpl_bill_to]]
+							[[tpl_ship_to]]
+							[[tpl_ship_date]]
+						</div>
+						
+						[[tpl_sale_table]]
+						
+						
+						<div class="hs-pago">
+							<div style="color:var(--rojo); font-size: 1.4em; letter-spacing:0.04em; padding: 8px 4px; 	border-bottom: 1px solid #ddd; font-weight:500; text-transform:uppercase;">
+							PAGO
+							</div>
+							
+						</div>
+						
+						[[cho_pay_methods]]
+					</div>
+					
+					<div class="clear"></div>
+				</div>
+				<div id="clear"></div>
+				<div style="height:4em;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+</div>

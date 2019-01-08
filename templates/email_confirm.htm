@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html lang="es">
+<style>
+body { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #666; }
+#confirm_email { width: 550px; margin-left: auto; margin-right: auto; }
+#confirm_email_client_name { font-size: 20px; margin-top: 20px; color: #000; }
+#confirm_email_intro { margin-top: 20px; }
+#confirm_order_num_title, #confirm_order_date_title { font-weight: normal; }
+.mensaje_tarjeta {border: 1px solid #ccc; padding: 10px; margin-bottom: 20px; margin-top:10px;}
+#confirm_bill_to, #confirm_ship_to { border: 1px solid #ccc; padding: 10px; margin-bottom: 20px; margin-top:10px;  }
+
+#confirm_bill_to_title, #confirm_ship_to_title { display:none }
+#confirm_cart_table { border-collapse: collapse; width: 100%; font-size: 14px; }
+#confirm_cart_head { font-weight: bold; }
+#confirm_cart_head td { padding: 12px; border-top: 1px solid #ccc; }
+.confirm_cart_product_row {background:#f7f7f7; border:1px solid #ebeaea;}
+.confirm_cart_product_row  td { padding: 12px; }
+.confirm_cart_total td { padding-top: 8px; padding-right: 12px;  }
+#confirm_cart_table tr:last-child   { color:#e00008; font-size:15px; font-weight:bold; border:1px solid #ebebeb;}
+#confirm_cart_table tr:last-child td:nth-child(2) {text-align:left;}
+#confirm_email_signature { margin-top: 20px; margin-bottom: 20px; }
+h1 {font-size:24px; font-weight:800; }
+</style>
+<body>
+	<div id="confirm_email">
+		[[confirm_email_banner]]
+		[[confirm_email_client_name]]
+		[[confirm_email_intro]]
+		<div style="float:left; width:550px;">
+			<div style="background: #ccc; color:#fff; font-size: 15px; font-weight: bold; padding: 10px; margin-top: 20px">
+				[[confirm_order_num]]
+				[[confirm_order_date]]
+			</div>
+			<div style="overflow: hidden; margin-top:20px">
+				<div style="width: 49%; display: inline-block; float: left">
+					<span style="font-size:15px; font-weight:bold;">Facturar a:</span>
+					[[confirm_bill_to]]
+				</div>
+
+				<div style="width: 49%; display: inline-block; float: left; padding-left: 10px">
+					<span style="font-size:15px; font-weight:bold;">Enviar a:</span>
+					[[confirm_ship_to]]
+				</div>				
+				
+			</div>
+			<div style="color:#fff; background:#e00008; text-align:center; font-weight:bold; font-size:16px; padding:10px;">Resumen de tu Orden</div>
+			[[confirm_order_details]]
+			[[confirm_email_signature]]
+			<div style="text-align:center; background:#efeeee; padding:10px 20px; font-size:9px; color:#6e6d6e;">
+				 <b>Industrias ESTRA S.A. | Colombia, Sur América | Medellín, Calle 30 No 55-72 | Teléfono 3500050 <a href="mailto:info@estra.com.co">info@estra.com.co</a></b>
+				<br /><br />
+				
+			</div>
+			<div style="height:20px;">&nbsp;</div>
+		</div>
+	</div>
+</body>
+</html>
