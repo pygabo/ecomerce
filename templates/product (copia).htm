@@ -1,0 +1,157 @@
+
+
+
+
+
+<div class="container">
+	<div class="containerInt maincontent ">
+		<div id="detalle-producto">		
+			<div class="detalle-c pr" itemscope itemtype="http://schema.org/Product">
+				<div class="galeria-detalle">
+					[[product_gallery_gc]]
+				</div>
+				<div class="spacer_producto ">&nbsp;</div>
+				<div class="descripcion-producto">
+					<div class="descrpcion-cont">
+						<div class="cont-prod">
+							<h1 itemprop="name">[[product_name]]</h1>
+							<div style="float:left; width:20%;">
+								<div class="ref-sku">
+									<meta itemprop="brand" content="[[prod_opt_name_from_spec(1)]]">SKU: <span itemprop="sku">[[product_sku]]</span>
+								</div>
+							
+								
+								
+								</div>
+								<div style="float:left; width:80%;">
+									[[product_review_score]]
+								</div>
+								<div style="clear:both;"></div>
+							</div>
+							<div class="disp-sku">
+							[[product_stock_status]]
+							</div>
+							<div style="text-align: right; color: #ccc; font-size: 16px">
+								[[product_structured_data]]
+							</div>
+									
+														
+							
+							<div class="prod-view pr">
+								<div class="price-prod">
+									[[product_price_html]]
+									<div style="clear:both;"></div>
+									<div class="unit-price-prod">
+										[[price_per_unit]]
+									</div>
+								</div>
+							</div>
+							<div class="cont-btn" style="margin-bottom:10px;">
+								<div class="btn-carrito">
+									[[product_form]]
+								</div>
+							</div>
+							[[product_wishlist_button]]
+							<div id="medidas" class="medidas">
+							[[specs_medidas(4)]]
+							[[specs_medidas(7)]]
+							[[specs_medidas(6)]]
+							<div style="clear:both;"></div>
+							</div>
+							<div style="clear:both;"></div>
+							<div style="height:3em"></div>
+							<!--
+							<div class="aptos" style="border:1px solid green;">
+								<div class="apto1">
+									<img src="/css/estra/images/apto-congelador2.png" style="width:65px;">
+								</div>
+								<div class="apto2">
+									<img src="/css/estra/images/apto-microondas.png" style="width:65px;">
+								</div>
+								<div class="apto3">
+									<img src="/css/estra/images/apto-lavavajillas.png" style="width:65px;">
+								</div>
+								<div class="apto4">
+									<img src="/css/estra/images/apto-alimentos.png" style="width:65px;">
+								</div>
+								<div class="apto5">
+									<img src="/css/estra/images/apto-bpa.png" style="width:65px;">
+								</div>
+								<div style="clear:both;"></div>
+							</div>
+							-->
+							<div class="aptos">
+								[[prod_info_from_spec(12)]]	
+								[[prod_info_from_spec(13)]]	
+								[[prod_info_from_spec(14)]]	
+								[[prod_info_from_spec(15)]]	
+								[[prod_info_from_spec(16)]]	
+								<div style="clear:both;"></div>
+
+							</div>
+							<div style="height:3em"></div>
+							<div class="txt-producto">
+								<div id="cont-tit-acc" style="width:100%; ">
+									<div style="float:left;">DESCRIPCIÓN</div>
+									<div class="mas" >+</div>
+									<div style="clear:both;"></div>
+								</div>
+								<div id="accionar-prod-desc">
+									[[product_description]]
+								</div>
+					
+							</div>
+							
+							<div class="desc-prod-caract">
+								<div id="cont-car-acc" style="width:100%; ">
+									<div style="float:left;">CARACTERISTÍCAS</div>
+									<div class="mas" >+</div>
+									<div style="clear:both;"></div>
+								</div>
+								<div id="drop-caracteristicas">
+									[[product_specs]]
+								</div>							
+							</div>
+		
+							
+							<div class="cont-compartir-disponibilidad">
+								[[product_pos_stock]]  
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="containerInt">	
+		<div class="star-cal" style="margin-top:8em;">
+			[[product_reviews]]
+		</div>
+		<div class="destacados relacionados">
+			<div class="hs-title">
+				<h5>Productos <span>Relacionados</span></h5>
+			</div>
+		
+			<div id="desslide">
+				<div class="slides">
+					[[product_related]]
+				</div>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+		<div style="height:8em;"></div>
+		<div class="vistos-reciente">
+			<div id="desslide">
+				<div class="slides">
+					[[product_recently_visited]]
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
